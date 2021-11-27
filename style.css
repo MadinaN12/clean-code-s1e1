@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.task-item, .list-title {
+.task-item, 
+.list-title {
   list-style: none;
 }
 
-.input-text,.button{
+.input-text,
+.button {
   outline: none;
 }
 
@@ -111,11 +113,10 @@
 }
 
 /* task list */
-.task-item{
+.task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
